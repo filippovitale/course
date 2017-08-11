@@ -460,3 +460,11 @@ following exercises are recommended:
 * [The Haskell `error` function](http://hackage.haskell.org/packages/archive/base/latest/doc/html/Prelude.html#v:error)
 
 * [Glasgow Haskell Compiler](http://haskell.org/ghc)
+
+### Useful Commands
+
+```
+stack ghci course:lib
+stack test course\:test\:tasty --test-arguments=-pExactlyOne
+stack test course\:test\:tasty --test-arguments=--hide-successes
+```
